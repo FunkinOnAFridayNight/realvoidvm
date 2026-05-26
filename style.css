@@ -1,0 +1,51 @@
+body {
+margin: 0;
+
+background: #090909;
+color: white;
+
+font-family: Arial;
+}
+
+.topbar {
+padding: 20px;
+
+background: #140020;
+
+border-bottom: 2px solid #7a00ff;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+h1 {
+color: #d8b4fe;
+}
+
+button {
+background: #7a00ff;
+
+border: none;
+
+color: white;
+
+padding: 12px 20px;
+
+border-radius: 12px;
+
+cursor: pointer;
+
+font-size: 16px;
+}
+
+button:hover {
+background: #9333ea;
+}
+
+#screen {
+width: 100%;
+height: calc(100vh - 80px);
+
+background: black;
+}
